@@ -1,0 +1,27 @@
+{
+  "name": "apirest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-rest-response": "^1.2.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.20.1",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
