@@ -4,7 +4,6 @@ var connection = require('../mysql');
 let Bookie = {};
 
 
-//devuelve todas
 Bookie.findAll = () => {
     return new Promise( (resolve, reject) => {
         if (connection) {
